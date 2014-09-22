@@ -265,14 +265,13 @@ input, select {
 }
 
 #contact {
-    background: url("../images/contact-background.jpg") no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-color: white;
     line-height: 1.3;
     padding-left: 20px;
-    color:white;
+}
+
+#contact h1 {
+    padding-top: 60px;
 }
 
 #contact h3 {
@@ -301,32 +300,19 @@ input, select {
     float:top;
 }
 
-#program-managers {
-    float: top;
-    float: left;
-    width: 100%;
-}
-
 #e-board {
     float: top;
     float:left;
-    width: 100%;
-}
-
-#program-managers ul li {
-    padding: 10px;
-    display: inline-block;
-    list-style-type: none;
-    width:30%;
-    float: left;
+    width: 50%;
 }
 
 #e-board ul li {
-    display: inline-block;
     list-style-type: none;
-    float:left;
-    width:20%;
-    padding: 10px;
+}
+
+#contact img {
+    float: left;
+    width: 50%;
 }
 
 
