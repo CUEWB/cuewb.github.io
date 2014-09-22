@@ -9,23 +9,111 @@
         <script src="js/html5shiv.min.js"></script>
     <![endif]-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
     <script src="js/onepage-scroll.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
 
+<nav>
+    <div>
+        <ul id="nav-menu">
+           <li class="selected"><a href="#home">Home</a></li>
+            <li><a href="#our-programs">Our Programs</a></li>
+            <li><a href="#events">Chapter Events</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+
 <div class="main">
     <section id="home" class="page-section">
+        <!--img id="logo" src="images/ewb-logo.jpg" alt="CU-EWB logo"-->
+        <div class="slider">
+            <div class="slide active-slide">
+                <img src="images/home.jpg">
+            </div>
+            <div class = "slide">
+                <img src="images/ghana3.png">
+            </div>
+            <div class = "slide">
+                <img src="images/uganda1.png">
+            </div>
+        </div>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora02l"
+        style="width: 55px; height: 55px; top: 122px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora02r"
+        style="width: 55px; height: 55px; top: 122px; right: 8px;">
+        </span>
+        <!-- Arrow Navigator Skin End -->
+        <div id="main-description">
+        <div class="text">
+            <h2>Columbia University Engineers Without Borders</h2>
+            <p>CU-EWB is a student chapter of Engineers Without Borders-USA, which is a national, non-profit humanitarian organization that supports community-driven sustainable engineering projects. Our chapter currently has projects in Morocco, Ghana, and Uganda.</p>
+        </div>
+    </div>
     </section>
 
-    <section id="ghana" class="page-section">
+    <section id="our-programs" class="page-section">
+        <h1>Get Involved!</h1>
+        <div id="morocco" class="programs">
+            <h2 class="program-title">Morocco</h2>
+            <br>
+            <p class="program-description">The Morocco program recently completed building a foot bridge in Ait Bayoud, Morocco. In addition to monitoring the bridge, we are starting a water distribution project in the nearby town of Izgouaren. Learn more about the Morocco program at <a href="http://www.morocco.cuewb.org">morocco.cuewb.org</a>.</p>
+            <br>
+            <p class="program-meeting-times">The Morocco program meets every Tuesday at 8:30pm in Hamilton 607</p>
+        </div>
+        <div id="ghana" class="programs">
+            <h2 class="program-title">Ghana</h2>
+            <br>
+            <p class="program-description">The Ghana program is working on a latrine project and water distribution project. Learn more about the Ghana program at <a href="http://www.ghana.cuewb.org">ghana.cuewb.org</a>.</p>
+            <br>
+            <p class="program-meeting-times">The Ghana program meets every Tuesday at 8pm in 825 Mudd.</p>
+        </div>
+        <div id="uganda" class="programs">
+            <h2 class="program-title">Uganda</h2>
+            <br>
+            <p class="program-description">The Uganda program works on a multi-functioning energy platform. Learn more about the Uganda program at <a href="http://www.uganda.cuewb.org">uganda.cuewb.org</a>.</p>
+            <br>
+            <p class="program-meeting-times">The Uganda program meets every Friday at 5:30pm in 834 Mudd.</p>
+    </div>
     </section>
 
-    <section id="morocco" class="page-section">
+    <section id="events" class="page-section">
+        <h1>Chapter Events</h1>
     </section>
 
-    <section id="uganda" class="page-section">
+    <section id="contact" class="page-section">
+        <h1>Contact Us</h1>
+        <br>
+        <div id="program-managers">
+        <h3>Program Managers</h3>
+        <ul>
+            <li>Morocco Program Managers: <br>Nicole Lewis: nicole.lewis@cuewb.org<br>Devin McManus</li>
+            <li>Ghana Program Managers:<br>Caitlin Fedio<br>Lucas Oliver</li>
+            <li>Uganda Program Manager:<br>Liza Faber</li>
+        </ul>
+        </div>
+        <br>
+        <div id="e-board">
+        <h3>Executive Board</h3>
+        <ul>
+            <li>Co Presidents:<br>Gwen Pfetsch and Ritish Patnaik</li>
+            <li>Secretary:<br>Sidney Perkins</li>
+            <li>Treasurer:<br>Roshan Ramkeesoon</li>
+            <li>Fundraising Chair:<br>Christine Djan</li>
+            <li>PR:<br>Progga Rashid</li>
+            <li>Travel Chair:<br>Robert Viramontes</li>
+            <li>Events Chair:<br>Lilly Wang</li>
+            <li>Webmaster:<br>Alex Kalicki</li>
+        </ul>
+</div>
     </section>
+
 </div>
 
 </body>
