@@ -193,7 +193,7 @@ input, select {
 /* homepage text */
 #main-description {
     background-color: rgba(0,0,0,.53);
-    height: 15%;
+    height: 150px;
     position: absolute;
     bottom: 0;
     font-size: 20px;
