@@ -26,10 +26,29 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    z-index: 1;
 }
 
 body {
     line-height:1;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: normal;
 }
 
 article,aside,details,figcaption,figure,
@@ -37,9 +56,41 @@ footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
-nav ul {
+/* navigation */
+nav {
+    text-align: right;
+    position:fixed;
+    z-index:2;
+    top:0;
+    right:0;
+    height:40px;
+    font-size: 20px;
+    width: 100%;
+    background-color: #0A2A1B;
+}
+
+nav ul li {
     list-style:none;
     height: 100%;
+    display:inline-block;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+nav li a {
+    display:inline-block;
+    height:100%;
+    font-weight:1000;
+    color:white;
+    padding: 3px;
+}
+
+#nav-menu a:hover {
+    color:#21abc9;
+}
+
+#nav-menu li.selected a {
+    color:deeppink;
 }
 
 blockquote, q {
@@ -58,6 +109,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    text-decoration: none;
 }
 
 ins {
@@ -105,29 +157,163 @@ input, select {
 **********************************************/
 
 .page-section {
-    
+    float:left;
 }
 
-#home {
-    background: url("../images/home.jpg") no-repeat;
+.program-title {
+    text-align: center;
+}
+
+.programs {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 27%;
+    text-align: center;
+    line-height: 1.3;
+    float: left;
+}
+
+.programs ul {
+    list-style-type: none;
+}
+
+.program-description {
+    margin-top: 8px;
+}
+
+.program-meeting-times {
+    text-align: left;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.program-meeting-times li {
+    margin-left: 10px;
+}
+
+/* homepage */
+#home img {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    position: absolute;
 }
 
-#ghana {
-    background: blue;
+/* homepage text */
+#main-description {
+    background-color: rgba(0,0,0,.53);
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    padding:20px;
+    line-height: 1.3;
+    text-align: center;
+    color:white;
 }
 
-#morocco {
-    background: url("../images/morocco.jpg") no-repeat;
+/* Our Programs */
+#our-programs {
+    background-color: white;
+}
+
+#our-programs h1 {
+    padding-top: 60px;
+}
+
+#our-programs h2 {
+    background-color: #0A2A1B;
+    color:white;
+}
+
+#our-programs-description {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+/*div surrounding the three separate program descriptions*/
+#all-programs {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 center;
+    width: 90%;
+}
+
+/* Chapter Events */
+#events {
+    background: url("../images/ewb_tamar.png");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    color:white;
+    line-height: 1.3;
 }
 
-#uganda {
-    background: green;
+#events-text {
+    background-color: rgba(0,0,0,.53);
+    height: 80%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8%;
 }
+
+#event1 {
+    width: 40%;
+    float: left;
+    padding: 5%;
+}
+
+#event2 {
+    width: 40%;
+    float: left;
+    padding: 5%;
+}
+
+#event2 h3 {
+    text-decoration: underline;
+}
+
+#event2 ul {
+    padding-left: 25px;
+}
+
+/* Contact Us */
+#contact {
+    background-color: white;
+    line-height: 1.3;
+    padding-left: 20px;
+}
+
+#contact h1 {
+    padding-top: 60px;
+}
+
+#contact h3 {
+    font-size: 40px;
+    font-style: underline;
+}
+
+#e-board {
+    float: top;
+    float:left;
+    width: 50%;
+}
+
+#e-board ul li {
+    list-style-type: none;
+}
+
+#contact img {
+    float: left;
+    width: 50%;
+}
+
+
