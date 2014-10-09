@@ -64,7 +64,7 @@ nav {
     margin-left: 0;
     position: absolute;
     z-index: 2;
-    background-color: black;
+    background-color: lightblue;
     float: left;
 }
 
@@ -161,6 +161,7 @@ input, select {
     height: 800px;
 }
 
+/*
 .header {
     text-align: right;
     float: left;
@@ -174,6 +175,7 @@ input, select {
     background-color: rgba(0,0,0,.53);
     color: white;
 }
+*/
 
 .menuBtn {
     outline: 0;
@@ -233,8 +235,10 @@ input, select {
     line-height: 1.3;
     text-align: center;
     color:white;
-    margin-top: 40px;
     padding-bottom: 10px;
+}
+
+#main-description p {
     padding-left: 50px;
     padding-right: 50px;
 }
