@@ -167,7 +167,7 @@ input, select {
 .page-section {
     position: relative;
     overflow: hidden;
-    height: 700px;
+    /*height: 700px;*/
 }
 
 /*
@@ -244,7 +244,9 @@ input, select {
     color: white;
 }
 
+/****************************** Home Page ********************************************/
 #home {
+    height: 700px;
     background: url("../images/home.jpg");
     background-size: cover;
     -webkit-background-size: cover;
@@ -275,8 +277,87 @@ input, select {
     padding-right: 50px;
 }
 
+/******************************* About Us ********************************************/
+#about-us {
+    height: 500px;
+    padding-bottom: 10px;
+}
 
+#about-us div {
+    width: 45%;
+    height: 70%;
+    float: left;
+    position: relative;
+    padding: 10px;
+}
+
+#about-us h1 {
+    padding-top: 60px;
+}
+
+#about-us p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+}
+
+#about-us img {
+    width: 100%;
+    height: 100%;
+}
+
+/****************************** Donate ********************************************/
+#donate {
+    padding-top: 10px;
+    height: 300px;
+}
+
+#donate h2 {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+#donate p {
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.3;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+#donate-general {
+    width: 50%;
+    height: 100%;
+    background: url("../images/tan_mini_bricks_seamless_pattern.gif");
+    float: left;
+}
+
+#travel-fund {
+    height: 100%;
+    background: url("../images/tan_mini_bricks_seamless_pattern.gif");
+    width: 50%;
+    float: left;
+}
+
+.donate-btn {
+    width: 100%;
+    margin-top: 30%;
+
+}
+
+.donate-btn button {
+    font-size: 25px;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+
+/****************************** Our Programs ********************************************/
 #our-programs {
+    height: 700px;
     background-color: white;
 }
 
@@ -312,8 +393,9 @@ input, select {
     width: 90%;
 }
 
-/*Chapter Events */
+/****************************** Chapter Events ********************************************/
 #events {
+    height: 700px;
     background: url("../images/ewb_tamar.png");
     background-size: cover;
     -webkit-background-size: cover;
@@ -352,8 +434,9 @@ input, select {
     padding-left: 25px;
 }
 
-
+/****************************** Contact ********************************************/
 #contact {
+    height: 700px;
     background-color: white;
     line-height: 1.3;
     padding-left: 20px;

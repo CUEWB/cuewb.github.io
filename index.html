@@ -9,15 +9,15 @@
     <!--[if lt IE 9]>
         <script src="js/html5shiv.min.js"></script>
     <![endif]-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"-->
-    <!--script src="js/onepage-scroll.min.js"></script-->
     <script src="js/main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!--script src="js/onepage-scroll.min.js"></script-->
+    
 </head>
 <body>
 
 <nav id="nav">
-    <button type="button" class="menuBtn" id="closeMenu"><i class="fa fa-times"></i></button>
+    <div class="menuBtn" id="closeMenu"><i class="fa fa-times"></i></div>
     <div>
         <ul id="nav-menu">
             <li class="selected"><a href="#home">Home</a></li>
@@ -37,7 +37,7 @@
     <section id="home" class="page-section">
         <!--img id="logo" src="images/ewb-logo.jpg" alt="CU-EWB logo"-->
         <div id="main-description">
-            <button type="button" class="menuBtn" id="openMenu"><i class="fa fa-bars"> MENU</i></button>
+            <div class="menuBtn" id="openMenu"><i class="fa fa-bars"> MENU</i></div>
             <div class="text">
                 <h1>CU-EWB</h1>
                 <h3>Columbia University Engineers Without Borders</h3>
@@ -48,18 +48,20 @@
 
     <section id="about-us" class="page-section">
         <h1>About Us</h1>
-        <p>CU-EWB started in 2004 with the Ghana program in Obodon, Ghana. Since then our chapter has grown to well over 100 members with two more programs in Morocco and Uganda. Each program sends travel teams to their sites over winter and summer breaks. On campus our programs focus on project design, fundraising, PR, and travel logistics.</p>
+        <div><img src="images/morocco-sunset.JPG"></div>
+        <div><p>CU-EWB started in 2004 with the Ghana program in Obodon, Ghana. Since then our chapter has grown to well over 100 members with two more programs in Morocco and Uganda. Each program sends travel teams to their sites over winter and summer breaks. On campus our programs focus on project design, fundraising, PR, and travel logistics.</p></div>
     </section>
 
     <section id="donate" class="page-section">
+        <div id="donate-general">
         <h2>Donate</h2>
         <p>The money you donate will be directly be used to support our programs. We need these funds for project materials, travel, and training.</p>
-        <div id="donate">
-            <button>Donate Now!</button>
+        <div class="donate-btn"><button>Donate Now!</button></div>
         </div>
         <div id="travel-fund">
+            <h2>Alumni Travel Fund</h2>
             <p>Organized by our recent alumni, the Alumni Travel Fund is a fund that participating alumni donate a specified amount to annually. The funds specifically go towards financing travel for active members who wouldn't be able to travel otherwise.</p>
-            <button>Sign Up for Alumni Travel Fund</button>
+            <div class="donate-btn"><button>Sign Up for Alumni Travel Fund</button></div>
         </div>
     </section>
 
