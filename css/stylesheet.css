@@ -57,7 +57,7 @@ footer,header,hgroup,menu,nav,section {
 }
 
 /* navigation */
-nav {
+#nav {
     display: none;
     width: 200px;
     height: 700px;
@@ -68,27 +68,23 @@ nav {
     float: left;
 }
 
-nav ul {
+#nav ul {
     margin-top: 100px;
     margin-left: 10px;
     font-size: 20px;
 }
 
-nav ul li {
+#nav ul li {
     list-style:none;
     padding-bottom: 10px;
 }
 
-nav li a {
+#nav li a {
     font-weight:1000;
     color: black;
 }
 
-nav button {
-    color: black;
-}
-
-nav ul ul li {
+#nav ul ul li {
     font-size: 10px;
     margin: 0;
 }
@@ -167,24 +163,7 @@ input, select {
 .page-section {
     position: relative;
     overflow: hidden;
-    /*height: 700px;*/
 }
-
-/*
-.header {
-    text-align: right;
-    float: left;
-    position: fixed;
-    z-index:2;
-    top:0;
-    right:0;
-    height:40px;
-    font-size: 20px;
-    width: 100%;
-    background-color: rgba(0,0,0,.53);
-    color: white;
-}
-*/
 
 .menuBtn {
     outline: 0;
@@ -199,47 +178,6 @@ input, select {
     cursor: pointer;
 }
 
-.program-title {
-    text-align: center;
-}
-
-.programs {
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 27%;
-    text-align: center;
-    line-height: 1.3;
-    float: left;
-}
-
-.programs ul {
-    list-style-type: none;
-}
-
-.program-description {
-    margin-top: 8px;
-}
-
-.program-meeting-times {
-    position: absolute;
-    display: none;
-    background-color: rgba(0,0,0,.50);
-    text-align: center;
-    font-size: 30px;
-    height: 350px;
-    width: 350px;
-}
-
-.program-meeting-times div {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-}
-
-.program-meeting-times li {
-    color: white;
-}
-
 #openMenu {
     color: white;
 }
@@ -252,6 +190,7 @@ input, select {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    margin-top: 0px;
 }
 
 #main-description h1 {
@@ -270,6 +209,7 @@ input, select {
     text-align: center;
     color:white;
     padding-bottom: 10px;
+    margin-top: 0px;
 }
 
 #main-description p {
@@ -292,7 +232,7 @@ input, select {
 }
 
 #about-us h1 {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 #about-us p {
@@ -310,6 +250,11 @@ input, select {
 #donate {
     padding-top: 10px;
     height: 300px;
+    background: url("../images/morocco-bridge-horiz.JPG");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #donate h2 {
@@ -329,29 +274,27 @@ input, select {
 }
 
 #donate-general {
+    opacity: 1;
     width: 50%;
     height: 100%;
-    background: url("../images/tan_mini_bricks_seamless_pattern.gif");
     float: left;
 }
 
 #travel-fund {
-    height: 100%;
-    background: url("../images/tan_mini_bricks_seamless_pattern.gif");
+    opacity: 1;
     width: 50%;
+    height: 100%;
     float: left;
 }
 
 .donate-btn {
     width: 100%;
-    margin-top: 30%;
-
+    text-align: center;
+    margin-top: 20%;
 }
 
 .donate-btn button {
-    font-size: 25px;
-    margin: 0 auto;
-    background-color: pink;
+    color: hotpink;
 }
 
 
@@ -362,7 +305,7 @@ input, select {
 }
 
 #our-programs h1 {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 #our-programs h2 {
@@ -391,6 +334,46 @@ input, select {
     margin-right: auto;
     margin: 0 center;
     width: 90%;
+}
+
+.program-title {
+    text-align: center;
+}
+
+.programs {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    line-height: 1.3;
+    float: left;
+}
+
+.programs ul {
+    list-style-type: none;
+}
+
+.program-description {
+    margin-top: 8px;
+}
+
+.program-meeting-times {
+    position: absolute;
+    display: none;
+    background-color: rgba(0,0,0,.50);
+    text-align: center;
+    font-size: 30px;
+}
+
+.program-meeting-times div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.program-meeting-times li {
+    color: white;
 }
 
 /****************************** Chapter Events ********************************************/
