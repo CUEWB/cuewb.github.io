@@ -314,8 +314,7 @@ input, select {
 }
 
 #our-programs img {
-    height: 350px;
-    width: 350px;
+    width: 100%;
 }
 
 #our-programs-description {
@@ -333,7 +332,8 @@ input, select {
     margin-left: auto;
     margin-right: auto;
     margin: 0 center;
-    width: 90%;
+    max-width: 1140px;
+    position: relative;
 }
 
 .program-title {
@@ -341,11 +341,16 @@ input, select {
 }
 
 .programs {
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
     line-height: 1.3;
     float: left;
+    width: 20%;
+}
+
+.program-image {
+    width: 100%;
 }
 
 .programs ul {
