@@ -9,26 +9,26 @@ $(document).delegate("#closeMenu", "click", function() {
 });
 
 
-$(document).ready(function() {
-    $("#morocco span").mouseenter(function() {
-        $("#morocco-times").slideDown(100);
-    });
-    $("#morocco span").mouseleave(function() {
-        $("#morocco-times").slideUp(100);
-    });
-    $("#ghana span").mouseenter(function() {
-        $("#ghana-times").slideDown(100);
-    });
-    $("#ghana span").mouseleave(function() {
-        $("#ghana-times").slideUp(100);
-    });
-    $("#uganda span").mouseenter(function() {
-        $("#uganda-times").slideDown(100);
-    });
-    $("#uganda span").mouseleave(function() {
-        $("#uganda-times").slideUp(100);
-    });
-});
+// $(document).ready(function() {
+//     $("#morocco span").mouseenter(function() {
+//         $("#morocco-times").slideDown(100);
+//     });
+//     $("#morocco span").mouseleave(function() {
+//         $("#morocco-times").slideUp(100);
+//     });
+//     $("#ghana span").mouseenter(function() {
+//         $("#ghana-times").slideDown(100);
+//     });
+//     $("#ghana span").mouseleave(function() {
+//         $("#ghana-times").slideUp(100);
+//     });
+//     $("#uganda span").mouseenter(function() {
+//         $("#uganda-times").slideDown(100);
+//     });
+//     $("#uganda span").mouseleave(function() {
+//         $("#uganda-times").slideUp(100);
+//     });
+// });
 
 
 

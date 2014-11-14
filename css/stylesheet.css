@@ -217,18 +217,44 @@ input, select {
     padding-right: 50px;
 }
 
+#social {
+    position: absolute;
+    margin-left: 70%;
+    font-size: 25px;
+    padding: 8px;
+    color: white;
+    width: 40%;
+}
+
+#social ul {
+    list-style-type: none;
+}
+
+#social ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+#social ul li a {
+    color: white;
+}
+
 /******************************* About Us ********************************************/
 #about-us {
     height: 500px;
     padding-bottom: 10px;
 }
 
+#about-us-container {
+    margin: 0 auto 0 auto;
+}
+
 #about-us div {
-    width: 45%;
-    height: 70%;
+    width: 50%;
     float: left;
     position: relative;
-    padding: 10px;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 #about-us h1 {
@@ -242,15 +268,16 @@ input, select {
 }
 
 #about-us img {
-    width: 100%;
-    height: 100%;
+    float: left;
+    width: 30%;
+    padding-left: 5%;
 }
 
 /****************************** Donate ********************************************/
 #donate {
     padding-top: 10px;
-    height: 300px;
-    background: url("../images/morocco-bridge-horiz.JPG");
+    height: 500px;
+    background: url("../images/snowman2.gif");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -264,13 +291,41 @@ input, select {
     text-decoration: underline;
 }
 
-#donate p {
+#donate div {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+
+#holiday-donate-button {
+    border-radius: 0px;
+    color: hotpink;
+    padding: 20px;
+    font-size: 30px;
+    background-color: white;
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#holiday-donate-button:hover {
+    background-color: lightslategray;
+}
+
+
+/*#donate p {
     padding-left: 20px;
     padding-top: 20px;
     line-height: 1.3;
     position: relative;
     float: left;
     text-align: center;
+}*/
+
+#donate p {    
+    text-align: center;
+    font-size: 30px;
 }
 
 #donate-general {
@@ -300,7 +355,7 @@ input, select {
 
 /****************************** Our Programs ********************************************/
 #our-programs {
-    height: 700px;
+    height: 500px;
     background-color: white;
 }
 
@@ -341,16 +396,24 @@ input, select {
 }
 
 .programs {
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+    /*text-align: center;*/
     line-height: 1.3;
     float: left;
-    width: 20%;
+    width: 30%;
 }
 
-.program-image {
-    width: 100%;
+.programs h3 {
+    text-align: center;
+}
+
+#morocco {
+    margin-right: 2.5%;
+    margin-left: 2.5%
+}
+
+#uganda {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .programs ul {
@@ -361,24 +424,35 @@ input, select {
     margin-top: 8px;
 }
 
-.program-meeting-times {
+.hover-info {
     position: absolute;
-    display: none;
     background-color: rgba(0,0,0,.50);
-    text-align: center;
-    font-size: 30px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 25px;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    margin: 0 auto 0 auto;
 }
 
-.program-meeting-times div {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    height: 100%;
-    width: 100%;
+.hover-info:hover {
+    opacity: 1;
+}
+
+.program-meeting-times {
+    position: relative;
+}
+
+.program-meeting-times ul {
+    margin-top: 20px;
 }
 
 .program-meeting-times li {
     color: white;
+    vertical-align: center;
 }
 
 /****************************** Chapter Events ********************************************/
@@ -453,3 +527,23 @@ input, select {
     float: left;
     width: 50%;
 }
+
+/****************************** Footer *********************************************/
+#footer {
+    height: 200px;
+    line-height: 1.3;
+}
+
+#footer img {
+    float: left;
+    padding: 8px;
+}
+
+#footer div {
+    float: left;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+
