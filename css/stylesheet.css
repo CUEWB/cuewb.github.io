@@ -1,9 +1,12 @@
+body{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
 
 /* NAVBAR CSS */
 .navbar-default{
     background-color: transparent;
     border-color: transparent;
-    font-family: 'Slabo 27px', serif;
 }
 
 #logo {
@@ -11,20 +14,53 @@
     height: auto;
 }
 
-/* PAGE CSS */
+/* COVER/TITLE PAGE CSS */
 #slide1{
-    background:url('../images/holder.jpg') 50% 0 no-repeat fixed;
-    color: #fff;
-    height: 600px;
+    background:url('../images/cover.jpg') 50% 0 no-repeat fixed;
+    font-family: 'Wire One', cursive;
+    color: #ffffff;
+    height: 800px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 17% 0 ;
     background-size: cover;
 }
 
+#slide1 h1{
+    font-size: 10em;
+    color: white;
+    text-shadow:
+       4px 4px 0 #000000,
+     -1px -1px 0 #000000,  
+      1px -1px 0 #000000,
+      -1px 1px 0 #000000,
+       1px 1px 0 #000000;
+}
+
+/* MISSION STATEMENT CSS */
+#slide2{
+    background: #FCFCFC;
+    padding: 10% ;
+}
+
+/* PROGRAM CSS */
+#ghana{
+    background: red;
+}
+
+#morocco{
+    background: blue;
+}
+
+#uganda{
+    background: green;
+}
+
+
+/* ABOUT PAGE CSS */
 #slide3{
-    background:url('../images/holder2.jpg') 50% 0 no-repeat fixed;
+    background:url('../images/ewb_tamar.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 100%;
     margin: 0;
     padding: 200px 0 260px 0;
     background-size: cover;
