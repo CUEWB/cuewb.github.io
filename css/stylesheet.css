@@ -1,0 +1,31 @@
+
+/* NAVBAR CSS */
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Slabo 27px', serif;
+}
+
+#logo {
+    width: 50%;
+    height: auto;
+}
+
+/* PAGE CSS */
+#slide1{
+    background:url('../images/holder.jpg') 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+
+#slide3{
+    background:url('../images/holder2.jpg') 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
