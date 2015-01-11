@@ -5,9 +5,36 @@ body{
 
 /* NAVBAR CSS */
 .navbar-default{
-    background-color: transparent;
+    background: rgba(0,0,0,.5);
     border-color: transparent;
+    text-align: center;
 }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  font-size: 1em;
+}
+
+.navbar .nav > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav > li > a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav li{
+    margin: 0 2.5em;
+}
+
 
 #logo {
     width: 50%;
