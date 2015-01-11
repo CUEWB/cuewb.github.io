@@ -70,8 +70,7 @@ body{
 /* MISSION STATEMENT CSS */
 #mission{
     background:url('../images/texture2.jpg');
-    
-    padding: 10% ;
+    padding: 10% 10% 0 10%;
 }
 
 #mission h1, #about h1{
@@ -83,12 +82,18 @@ body{
 }
 
 /* PROGRAM CSS */
+#projects{
+  padding:0;
+  background:url('../images/texture2.jpg');
+}
+
 #ghana img, #morocco img, #uganda img{
     width: 100%;
 }
 
 #ghana, #morocco, #uganda{
     padding: 0;
+    margin-top: 10%;
 }
 
 .gallery-hidden{
