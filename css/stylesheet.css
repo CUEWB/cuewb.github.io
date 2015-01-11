@@ -21,7 +21,7 @@ body{
     color: #ffffff;
     height: 800px;
     margin: 0;
-    padding: 17% 0 ;
+    padding: 15% 0 ;
     background-size: cover;
 }
 
@@ -36,32 +36,72 @@ body{
        1px 1px 0 #000000;
 }
 
+#slide1 h2{
+    font-size: 3em;
+}
+
 /* MISSION STATEMENT CSS */
-#slide2{
-    background: #FCFCFC;
+#mission{
+    background-color: #fafafa;
     padding: 10% ;
 }
 
+#mission h1, #about h1{
+    font-size: 3em;
+}
+
+#mission div div, #about div div{
+    font-size: 1.5em;
+}
+
 /* PROGRAM CSS */
-#ghana{
-    background: red;
+#ghana img, #morocco img, #uganda img{
+    width: 100%;
 }
 
-#morocco{
-    background: blue;
+#ghana, #morocco, #uganda{
+    padding: 0;
 }
 
-#uganda{
-    background: green;
+.gallery-hidden{
+  font-family: "Wire One", Calibri, sans-serif;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top: 20%;
+  background: rgba(0,0,0, .6);
+  color: white;
+  opacity: 1;
+   -webkit-transition: opacity .4s ease-in-out;
+  -moz-transition: opacity .4s ease-in-out;
+  -ms-transition: opacity .4s ease-in-out;
+  -o-transition: opacity .4s ease-in-out;
+  transition: opacity .4s ease-in-out;
+}
+
+.gallery-hidden:hover{
+  opacity: 0;
+}
+
+.gallery-hidden h1{
+    font-size: 4em;
+}
+
+.gallery-hidden div{
+    font-size: 2em;
+    border-top: solid white 1px;
+    padding-top: .5em;
+    margin: 0 2em;
+
 }
 
 
 /* ABOUT PAGE CSS */
-#slide3{
-    background:url('../images/ewb_tamar.png') 50% 0 no-repeat fixed;
-    color: #fff;
-    height: 100%;
-    margin: 0;
-    padding: 200px 0 260px 0;
-    background-size: cover;
+#about{
+    background:url('../images/texture2.jpg');
+    padding: 10%;
+}
+
+#about-text{
+    margin-bottom: 4em;
 }
