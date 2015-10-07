@@ -9,7 +9,7 @@ $(document).ready(function(){
 	$(".support_tile").css("height", $(".support_tile").width());
 
 	$("#meetings h2").hover(function(){
-		$(this).html("<p>Ghana: Tuesdays @ 8:00pm (Mudd 834)</p><p>Morocco: Tuesdays @ 9:00pm (Hamilton 602)</p><p>Uganda: Mondays @ 9:00pm (Hamilton Lobby)</p>");
+		$(this).html("<p>Ghana: Tuesdays @ 8:00pm (Mudd 834)</p><p>Morocco: Tuesdays @ 9:00pm (Hamilton 602)</p><p>Uganda: Mondays @ 9:00pm (Mudd 825)</p>");
 		$(this).addClass("meeting_hover");
 	}, function(){
 		$(this).html("Meetings");
