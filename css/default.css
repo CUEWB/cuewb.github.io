@@ -1,0 +1,177 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { 
+	font-size: 100%; 
+	padding: 0; 
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+    font-family: 'Roboto', Calibri, Arial, sans-serif;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+.container {
+	position: relative;
+	margin-top: 50px;
+}
+
+.colors {
+	height: 7px;
+	width: 100%;
+}
+
+/* MISSION STATEMENT CSS */
+#mission{
+	color: #f0ece8;
+	text-align: center;
+    background: #75856f;
+    padding: 10% 10% 10%;
+}
+
+#mission h1 {
+    font-size: 2.3em;
+}
+
+#mission p {
+    font-size: 1.3em;
+}
+
+/* ABOUT CSS */
+#page-container{
+	margin-top: 150px;
+	color: #333;
+}
+
+#page-container h1 {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1em;
+}
+
+#about {
+	padding: 1% 5% 5%;
+}
+
+#about a {
+	color: #333;
+	text-decoration: none;
+}
+
+
+/* Projects CSS */
+#projects {
+	padding: 5% 0%;
+}
+
+/* FOOTER CSS */
+#footer{
+	background:url('../assets/images/background1.jpg') 50% 0 fixed;
+	color: #333;
+	padding: 3em 1em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
+}
+
+#footer h1 {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+    font-size: 2.3em;
+}
+
+#clearfix{
+	clear:both;
+	display: block;
+}
+
+/* MEDIABOX CSS */
+.mediabox {
+	float: left;
+	width: 33%;
+	padding: 0 25px;
+}
+
+.mediabox span {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.mediabox img {
+	width: 100%;
+	height: auto;
+}
+
+#social i {
+	text-align: center;
+	width: 2em;
+	height:2em;
+	color: white;
+	background: #333;
+	padding: .4em;
+	border-radius: 4em;
+}
+
+@media screen and (max-width: 55em) {
+
+	.container {
+		position: relative;
+		margin-top: 180px;
+	}
+
+	#page-container{
+		margin-top: 180px;
+		color: #333;
+	}
+
+	/* MISSION STATEMENT CSS */
+	#mission h1 {
+	    font-size: 1.5em;
+	}
+
+	#mission p {
+		line-height: 1.5em;
+		text-align: justify;
+	    font-size: 90%;
+	}
+
+	/* Projects CSS */
+	#projects .mediabox {
+		float: none;
+	}
+
+	/* MEDIABOX CSS */
+	.mediabox {
+		width: 50%;
+		padding: 0 15px 20px;
+		font-size: 90%;
+	}
+
+	/* FOOTER CSS */
+	#footer {
+		padding: 3em 1em 1em;
+	}
+
+}
+
+@media screen and (max-width: 32em) {
+
+	.container h1 {
+		font-size: 1.7em;
+	}
+
+	/* Projects CSS */
+	#projects .mediabox {
+		float: none;
+		width: 100%;
+	}
+}
