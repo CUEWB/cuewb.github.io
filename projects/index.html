@@ -7,9 +7,9 @@
 		<title>Engineers Without Borders | Columbia University</title>
 		<meta name="description" content="Blueprint: On-Scroll Animated Header" />
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
-		<link rel="stylesheet" type="text/css" href="../css/default.css" />
 		<link rel="stylesheet" type="text/css" href="../css/headerComponent.css" />
-		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../css/default.css" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<script src="../js/modernizr.custom.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -19,55 +19,62 @@
 			<!-- NAV BAR -->
 			<div class="cbp-af-header">
 				<div class="cbp-af-inner">
-					<a href="../index.html"><h1><img src="../assets/images/logo.png"></h1></a>
+					<a href="http://cuewb.org/"><h1><img src="../assets/images/logo.png"></h1></a>
 					<nav>
-						<a href="../about/index.html">About</a>
-						<a href="../projects/index.html">Projects</a>
-						<a href="../resources/index.html">Resources</a>
-						<a href="#">Donate</a>
+						<a href="http://cuewb.org/about">About</a>
+						<a href="http://cuewb.org/projects">Projects</a>
+						<a href="http://cuewb.org/resources">Resources</a>
+						<a href="https://ssl.charityweb.net/ewbusa/?Custom3=100016">Donate</a>
 					</nav>
 				</div>
 			</div>
 
 			<!-- COLORS -->
-			<div class="colors" style="background:#b04f48"></div>
-			<div class="colors" style="background:#2e323d"></div>
-			<div class="colors" style="background:#403535"></div>
-			<div class="colors" style="background:#918076"></div>
-			<div class="colors" style="background:#d9d2c8"></div>
-			<div class="colors" style="background:#e0e0dd"></div>
-			<h1>Projects</h1>
+			<div id="banner">
+				<img src="../assets/images/banner.jpg">
+				<h1>Projects</h1>
+			</div>
 
 			<!-- Projects -->
-			<section><div id="projects">
-	            <div class="mediabox">
-					<img src="../assets/images/ghana.jpg">
-				</div>
-				<div class="mediabox" id="social">
-					<img src="../assets/images/morocco.jpg">
-				</div>
-				<div class="mediabox">
-					<img src="../assets/images/uganda.jpg">
-				</div>
+			<section><div class="page-content" id="project">
+	            <a href="http://ghana.cuewb.org" target="_blank" class="nodim"><div class="mediabox">
+					<img src="../assets/images/ghana.jpg" alt="img01" />
+					<h3>Ghana</h3>
+					<i>Tuesdays @ 8pm (Mudd 834)</i><br><br>
+					<p>The Ghana program centers its efforts on developing solutions for water management and sanitation in the rural community of Obodan.<br><i style="color:#92a3a2">&#8594; Learn more</i></p>
+				</div></a>
+				<a href="http://morocco.cuewb.org" target="_blank" class="nodim"><div class="mediabox">
+					<img src="../assets/images/morocco.jpg" alt="img02" />
+					<h3>Morocco</h3>
+					<i>Tuesdays @ 9pm (Hamilton 603)</i><br><br>
+					<p>The Morocco program completed a footbridge in the community of Ait Bayoud and is currently working on water projects in nearby Izgouren.<br><i style="color:#92a3a2">&#8594; Learn more</i></p>
+				</div></a>
+				<a href="http://uganda.cuewb.org" target="_blank" class="nodim"><div class="mediabox">
+					<img src="../assets/images/uganda.jpg" alt="img03" />
+					<h3>Uganda</h3>
+					<i>Mondays @ 9pm (Mudd 825)</i><br><br>
+					<p>The Uganda program volunteers have designed and implemented three rainwater-harvesting systems in different rural communities.<br><i style="color:#92a3a2">&#8594; Learn more</i></p>
+				</div></a>
 				<div id="clearfix"></div>
 			</div></section>
 
 			<!-- FOOTER -->
 			<section><div id="footer">
-				<div class="mediabox">
+				<div class="footer-box">
 					<span>Meeting Times</span>
 					<p> Ghana: Tuesdays @ 8pm (Mudd 834) <br>
 						Morocco: Mondays @ 9pm (Hamilton 603) <br>
 						Uganda: Mondays @ 9pm (Mudd 825)</p>
 				</div>
-				<div class="mediabox" id="social">
+				<div class="footer-box" id="social">
 					<span>Social</span>
-					<p><i class="fa fa-facebook"></i>
-					   <i class="fa fa-linkedin"></i>
-					   <i class="fa fa-github"></i>
-					   <i class="fa fa-wikipedia-w"></i></p>
+					<p>
+						<a href="https://www.facebook.com/cuewb/"><i class="fa fa-facebook"></i></a>
+					   	<a href="https://www.linkedin.com/company/2624?trk=prof-exp-company-name"><i class="fa fa-linkedin"></i></a>
+					   	<a href="https://github.com/CUEWB"><i class="fa fa-github"></i></a>
+					</p>
 				</div>
-				<div class="mediabox">
+				<div class="footer-box">
 					<span> Contact Us </span>
 					<p>cu-ewb@columbia.edu</p>
 				</div>

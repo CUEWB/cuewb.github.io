@@ -139,6 +139,11 @@
 }
 
 @media screen and (max-width: 32.25em) {
+
+	.cbp-af-header img {
+		height: 90px;
+	}
+
 	.cbp-af-header nav a {
 		font-size: .9em;
 	}
