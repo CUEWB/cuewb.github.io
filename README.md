@@ -1,2 +1,21 @@
-Information for the Webmaster: [EWB Wiki](https://sites.google.com/site/cuewbwiki/webmaster)
-You can also access the information by going to cuewb.org/wiki
+# Webmaster Tips
+see [EWB Wiki](http://cuewb.org/wiki/)
+
+## Updating the header/footer
+To update any information in the header or footer, you must update the information in *every* index.html file. This includes the home, about, projects, and resources page - which means that if you change something in one page, you have to change it everywhere (4 times in total).
+
+----
+## Updating meeting times
+The meeting times are located in the following locations (7 places in total):
+
+1. Footer of the main website (must be changed 4 times...see above)
+2. Footer of project website
+3. Top of about page on main website
+4. Section of project page on main website
+
+----
+## Updating contact information
+Updating contact information is fairly simple. Here are the places to keep in mind:
+
+* About page on main website (EBoard information)
+* Project pages (PM information)
