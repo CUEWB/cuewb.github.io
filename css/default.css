@@ -40,12 +40,13 @@ h1, .cbp-af-header nav a {
 #mission{
 	color: #f0ece8;
 	text-align: center;
-    background: #75856f;
-    padding: 10% 10% 10%;
+    background: #006080;
+    padding: 8% 8% 8%;
 }
 
 #mission h1 {
     font-size: 2.3em;
+    font-weight: bold;
 }
 
 #mission p {
@@ -55,6 +56,23 @@ h1, .cbp-af-header nav a {
 #page-container{
 	margin-top: 150px;
 	color: #333;
+}
+
+/* HOW TO JOIN CSS */
+#join{
+	color: #f0ece8;
+	text-align: center;
+    background: #009973;
+    padding: 8% 8% 8%;
+}
+
+#join h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+#join p {
+    font-size: 1.3em;
 }
 
 /* PAGES CSS */
