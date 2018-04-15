@@ -81,11 +81,11 @@
 
 .cbp-af-header.cbp-af-header-shrink img {
 	height: 55px;
-	margin-top: 5px;
+	margin-top: 2px;
 }
 
 .cbp-af-header.cbp-af-header-shrink h1 {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 /* Example Media Queries */
