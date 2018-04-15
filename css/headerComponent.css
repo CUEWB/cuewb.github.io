@@ -6,7 +6,7 @@
 	width: 100%;
 	background:url('../assets/images/background1.jpg') 50% 0 fixed;
 	z-index: 10000;
-	height: 130px;
+	height: 100px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -29,7 +29,7 @@
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .cbp-af-header h1,
 .cbp-af-header nav a {
-	line-height: 150px;
+	line-height: 120px;
 }
 
 .cbp-af-header img {
@@ -71,16 +71,16 @@
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	height: 80px;
+	height: 60px;
 }
 
 .cbp-af-header.cbp-af-header-shrink h1,
 .cbp-af-header.cbp-af-header-shrink nav a {
-	line-height: 80px;
+	line-height: 60px;
 }
 
 .cbp-af-header.cbp-af-header-shrink img {
-	height: 70px;
+	height: 40px;
 	margin-top: 5px;
 }
 
