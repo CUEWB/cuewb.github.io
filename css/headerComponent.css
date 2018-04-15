@@ -29,7 +29,7 @@
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .cbp-af-header h1,
 .cbp-af-header nav a {
-	line-height: 120px;
+	line-height: 110px;
 }
 
 .cbp-af-header img {
