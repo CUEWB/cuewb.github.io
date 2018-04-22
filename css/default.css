@@ -10,7 +10,8 @@ body, html {
 .clearfix:after { clear: both; }
 
 body {
-    font-family: 'Roboto', Calibri, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', Calibri, Arial, sans-serif; */
 }
 
 a {
