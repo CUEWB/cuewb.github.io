@@ -1,0 +1,444 @@
+/*
+ * Columbia University Engineers Without Borders - Morocco
+ * CSS Stylesheet
+ * Author: Alex Kalicki
+ * Source code for site available on GitHub: https://github.com/akalicki/EWB-Morocco
+*/
+
+/* CSS5 RESET
+**********************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+    height: 100%;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* WEBSITE CODE
+**********************************************/
+
+/* main site styles */
+html, body {
+    font-family:"Exo",sans-serif;
+    font-weight:400;
+    font-size:16px;
+    color:#262829;
+    background:white;
+    line-height:1.4;
+    height:100%;
+    min-width:1000px;
+}
+
+/* fixed navbar stays on top with scroll */
+nav {
+    position:fixed;
+    z-index:100;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#262829;
+}
+
+/* container classes to center content */
+nav .container {
+    padding-top:0;
+    padding-bottom:0;
+    height:50px;
+}
+
+.container {
+    position:relative;
+    max-width:1140px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.padded {
+    padding-left:2em;
+    padding-right:2em;
+}
+
+/* navbar link styles */
+nav ul li {
+    display:inline-block;
+    height:100%;
+    padding-right:.2em;
+}
+
+nav li a {
+    display:inline-block;
+    padding:1em 1em 0 0;
+    height:100%;
+    font-weight:500;
+    color:#909090;
+}
+
+#nav-menu a:hover {
+    color:#21abc9;
+}
+
+#nav-menu li.selected a {
+    color:white;
+}
+
+#social-links {
+    position:absolute;
+    top:0;
+    right:1em;
+}
+
+/* header image */
+#home {
+    padding-top:100px;
+}
+
+#home img {
+    display:block;
+    margin:0 auto;
+}
+
+/* normal links */
+a {
+    text-decoration:none;
+    color:#21abc9;
+    font-weight:500;
+}
+
+a:hover {
+    color:#e95a50;
+}
+
+/* main page section styles */
+.page-section {
+    padding-bottom:50px;
+}
+
+.page-section-dark {
+    padding-bottom:60px;
+    background-color:#4d4d4d;
+}
+
+.page-section-blue {
+    padding-bottom:50px;
+    background-color:#21abc9;
+}
+
+.section-info {
+    padding:9em 4em 0 4em;
+}
+
+/* small rectangualar title tab on left */ 
+.section-title {
+    position:absolute;
+    margin-top:60px;
+    padding-top:.8em;
+    width:10em;
+    height:2em;
+    background-color:#262829;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:500;
+}
+
+.page-section-dark .section-title, .page-section-blue .section-title {
+    background-color:white;
+    color:#262829;
+}
+
+/* big centered text after title */
+.section-subtitle {
+    margin:0 auto 1em auto;
+    width:90%;
+    line-height:1.3;
+    font-size:1.6em;
+    font-weight:500;
+    text-align:center;
+}
+
+.page-section-dark .section-subtitle, .page-section-blue .section-subtitle {
+    color:white;
+}
+
+.section-small {
+    font-size:1em;
+}
+
+/* highlighted words in subtitle */
+.section-subtitle span {
+    font-size:1.4em;
+    font-weight:700;
+    color:#e95a50;
+}
+
+/* big "buzz" section under subtitle and left of description */
+.section-buzz {
+    float:left;
+    margin-right:5%;
+    width:42%;
+    line-height:1.3;
+    font-size:1.6em;
+    font-weight:500;
+}
+
+/* highlighted words in buzz section */
+.section-buzz span {
+    font-size:1.4em;
+    font-weight:700;
+    color:#21abc9;
+}
+
+/* paragraph styles for main section descriptions */
+.section-desc {
+    float:left;
+    width:53%;
+}
+
+.section-desc p {
+    margin-bottom:.5em;
+    font-weight:400;
+}
+
+/* styles for section photo galleries */
+.section-photos {
+    clear:left;
+    margin:0 auto;
+    padding-top:2em;
+    width:872px;
+}
+
+.section-photos .thumbnails {
+    float:left;
+    margin-top:27.5px;
+}
+
+.section-photos .thumbnail-row {
+    float:left;
+    clear:left;
+    margin-bottom:4px;
+}
+
+.section-photos .thumbnail-row img {
+    display:block;
+    float:left;
+    margin-right:4px;
+    width:98px;
+    border:3px solid #a8a8a8;
+    border-radius:2px;
+}
+
+.section-photos .thumbnail-row .shown {
+    border-color:#21abc9;
+}
+
+.section-photos .display-image {
+    float:left;
+    width:650px;
+    height:385px;
+    border:3px solid #e95a50;
+    border-radius:2px;
+    opacity:0;
+}
+
+.section-photos .image-caption {
+    clear:left;
+    margin-left:219px;
+    padding-top:10px;
+    width:650px;
+    height:50px;
+    text-align:center;
+}
+
+/* donate button */
+.section-donate {
+    margin-top:20px;
+    text-align:center;
+}
+
+.section-donate .donate-button {
+    padding:6px 12px;
+    font-size:1em;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:10px;
+    background-color:white;
+    font-family:"Exo",sans-serif;
+}
+
+/* sponsor image links */
+#sponsors .sponsor-row {
+    margin:0 auto;
+    text-align:center;
+}
+
+#sponsors .image-link img {
+    position:relative;
+    top:4px;
+    margin:.75em 1.5em;
+    opacity:1;
+    transition: all 250ms;
+    -webkit-transition:all 250ms;
+    -moz-transition:all 250ms;
+    -ms-transition:all 250ms;
+    -o-transition:all 250ms;
+}
+
+#sponsors .image-link img:hover {
+    top:0;
+    opacity:.7;
+}
+
+/* bottom footer styles */
+footer {
+    padding-top:2em;
+    background-color:#262829;
+    color:#b0b0b0;
+    font-size:.9em;
+    text-align:left;
+}
+
+footer .container {
+    position:relative;
+    min-height:22em;
+}
+
+footer .footer-col {
+    float:left;
+    margin-left:2%;
+    padding:0 1.5%;
+    width:29%;
+}
+
+footer .footer-col:first-child {
+    margin-left:0;
+}
+
+footer h3 {
+    margin-top:1em;
+    margin-bottom:.4em;
+    color:white;
+    font-size:.9em;
+    font-weight:500;
+    text-transform:uppercase;
+}
+
+footer p {
+    margin-top:.5em;
+    margin-left:.4em;
+    line-height:1.3;
+}
+
+/* big black and white EWB logo in corner */
+#footer-logo {
+    position:absolute;
+    bottom:4em;
+    left:4em;
+}
+
+/* social media links */
+footer #footer-social .social-link {
+    display:inline-block;
+    margin-right:10px;
+    width:29px;
+    height:29px;
+    background-color:#b0b0b0;
+    background-image:url('../images/social.png');
+}
+
+footer #footer-social .social-link:hover {
+	background-color:#21abc9;
+}
+
+/* all images in one sprite-sheet - change background-position to choose one */
+footer #facebook { background-position:1px 0; }
+footer #google { background-position:-31px 0; }
+footer #twitter { background-position:-62px 0; }
+footer #git { background-position:-93px 0; }
