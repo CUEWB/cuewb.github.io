@@ -23,3 +23,7 @@ Updating contact information is fairly simple. Here are the places to keep in mi
 ----
 ## Updating photos
 Be sure to compress photos as needed when uploading them to the website, and to crop them to the appropriate dimensions so that no parts of the pictures are left out. Typically photos should be in the 200Kb - 1Mb range. The following website is useful in compressing photos to a specified size: https://www.imgonline.com.ua/eng/compress-image-size.php.
+
+----
+## Renewing Domain Name
+Please consult the following link for information about domain name renewal: https://docs.google.com/document/d/1sPZxH4-ebSul6FNqPz4sySUw0D1MiZKiIIlWdqPlUCc/edit?usp=sharing
