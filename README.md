@@ -6,12 +6,13 @@ To update any information in the header or footer, you must update the informati
 
 ----
 ## Updating meeting times
-The meeting times are located in the following locations (7 places in total):
+The meeting times are located in the following locations:
 
 1. Footer of the main website (must be changed 4 times...see above)
 2. Footer of project website
 3. Top of about page on main website
 4. Section of project page on main website
+5. Section of donate page on main website
 
 ----
 ## Updating contact information
