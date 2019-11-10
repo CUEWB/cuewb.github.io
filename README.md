@@ -12,7 +12,7 @@ The meeting times are located in the following locations:
 2. Footer of project website
 3. Top of about page on main website
 4. Section of project page on main website
-5. Section of donate page on main website
+5. Footer of donate page on main website
 
 ----
 ## Updating contact information
