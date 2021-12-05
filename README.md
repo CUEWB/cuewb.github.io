@@ -1,4 +1,4 @@
-# Webmaster Tips
+# Website Architect Tips
 see [EWB Wiki](http://cuewb.org/wiki/)
 
 ## Updating the header/footer
