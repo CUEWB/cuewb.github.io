@@ -123,7 +123,7 @@ h1, .cbp-af-header nav a {
 	max-width: 100%;
 	display: block;
 	margin: 0 auto;
-	border-radius: 3em 0px;
+	border-radius: 3em;
 	border: 3px solid rgba(87, 83, 73, .7);
 }
 
