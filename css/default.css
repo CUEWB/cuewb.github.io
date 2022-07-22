@@ -171,6 +171,7 @@ h1, .cbp-af-header nav a {
 	background: #333;
 	padding: .4em;
 	border-radius: 4em;
+	margin: auto;
 }
 
 @media screen and (max-width: 55em) {
